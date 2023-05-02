@@ -1,8 +1,12 @@
 #include <iostream>
 using namespace std ;
 int main(){
-	for(int i=0;i<10;i++){
-		cout<<"I is :"<<i<<endl;
-	}
-	return 0;
+float score = 15.5;
+float p = 7.5;
+float *ptr = &score;
+(*ptr)++;
+*ptr = p;
+cout << *ptr << " " << score<< " " << p;
+
+
 }

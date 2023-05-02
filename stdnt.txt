@@ -1,0 +1,4 @@
+Name of a student: laurent
+Age of a student: 16
+Roll Number of a student: 12
+Marks of a student: 40
